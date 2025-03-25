@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.14",
+    "aws-amplify": "^6.13.6",
     "axios": "^1.8.4",
     "json-server": "^1.0.0-beta.3",
     "primeicons": "^7.0.0",
@@ -20,10 +21,18 @@
     "vue-toastification": "^2.0.0-rc.5"
   },
   "devDependencies": {
+    "@aws-amplify/backend": "^1.14.3",
+    "@aws-amplify/backend-cli": "^1.5.0",
     "@vitejs/plugin-vue": "^5.2.1",
     "autoprefixer": "^10.4.21",
+    "aws-cdk": "^2.1003.0",
+    "aws-cdk-lib": "^2.180.0",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.25.1",
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
     "vite": "^6.2.1",
     "vite-plugin-vue-devtools": "^7.7.2"
   }
