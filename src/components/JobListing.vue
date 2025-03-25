@@ -24,7 +24,7 @@ const toggleFullDescription = ()=>{
 };
 </script>
 <template>
-      <div class="bg-white rounded-xl shadow-md relative">
+      <div class="bg-white rounded-xl shadow-md relative my-1 mx-1">
             <div class="p-4">
               <div class="mb-6">
                 <div class="text-gray-600 my-2">{{job.type}}</div>
